@@ -7,7 +7,7 @@
 }
 
 header {
-    margin: -200px 0 -170px 176px;
+    margin: -201px 0 -170px 176px;
 
 }
 
@@ -85,10 +85,38 @@ p {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 836px) {
+    header {
+        margin: -200px -180px 176px;
+
+    }
+
     .logo-image {
-        width: 490px;
-        height: 451px;
+        margin-top: -334px;
+
+    }
+
+    h1 {
+        font-size: 90px;
+        line-height: 78px;
+
+    }
+
+    h2 {
+        margin-top: -14px;
+        margin-left: -12px;
+
+    }
+
+    p {
+        font-size: 23px;
+        width: 672px;
+
+    }
+
+    .botton-main {
+        margin-top: -47px;
+
     }
 
 }

@@ -15,3 +15,7 @@
   <figcaption>Foto Projeto para Tela Mobile part1</figcaption>
   </figuri>
 
+<figuri>
+<img src=https://raw.githubusercontent.com/MarceloNaja79/We-Care/d2a219be1e664af390ce44d9192f62cbba28f2db/Projetos%20acabados/We%20Care/img/atual%20print%20we%20care%20part2.PNG />
+<figcaption>Foto Projeto para Tela Mobile part2</figcaption>
+</figuri>

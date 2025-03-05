@@ -1,0 +1,113 @@
+* {
+    font-family: Fira+Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: -200px 0 -170px 76px;
+
+}
+
+.link-header {
+    font-weight: 601;
+    font-size: 25;
+    line-height: 29;
+    color: #339c02;
+    margin-right: 40px;
+    cursor: pointer;
+font: 0;
+}
+
+.botton-header {
+    background: #16a539;
+    border-radius: 5.5px;
+    width: 100px;
+    height: 41px;
+    border: none;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 29px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.Logo-image {
+    width: 568px;
+    height: 700px;
+    margin-left: 100px;
+    display: inline-block;
+
+}
+
+section {
+margin-left: 730px;
+margin-top: -500px;
+margin-right: 200px;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 35px;
+    color: #07631e;
+    letter-spacing: 0.70px;
+   
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #030d44;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #515151;
+    width: 315px;
+    margin-top: 32px;
+    margin-bottom: 18px
+}
+
+.botton-main {
+   
+  
+    width: 239px;
+    height: 44px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    color: #39bb2d;
+ 
+}
+
+@media screen and (max-width: 1350px){
+   .link-header {
+display: grid;
+height: auto;
+width: 100%;
+position: fixed;
+
+   }
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+

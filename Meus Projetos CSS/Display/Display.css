@@ -1,0 +1,55 @@
+
+.box{
+background: #ff1395;
+width: 50px;
+height: 50px;
+margin: 10px;
+display: inline-block;
+}
+.box-2 {
+    background: #b3ff02;
+
+}
+.box-3 {
+    background: #af05f1;
+
+}
+
+
+
+
+/* 
+
+DISPLAY
+Temos 5 Valores q São Mais comuns:
+
+Block 
+Inline
+Inline-Block
+
+Grid
+Flex
+
+
+Block
+vem como padrão: div, section, h1, h2, ul, li, article...
+
+- Ocupa 100% da largura do elemento pai
+- Sempre ocuta toda a sua linha
+- Altura definida deacordo com o conteudo
+- Podemos definir width e heigth
+- Podemos definir valores de Margin
+
+INLINE
+vem com o padrão: a, span, b, 1, ...
+
+- Elementos em linha 
+- ñ permite alterar Width e Heigth
+- ñ podemos definir valores de Margin
+- Ganha comportamento de uma palav
+
+Inline block
+
+Elementos em Linha, porem com caracteristica do Displey Block
+Altura de Largura podem ser alterados
+

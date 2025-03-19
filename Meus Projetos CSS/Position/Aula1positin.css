@@ -1,0 +1,49 @@
+/* Position Como Funciona!
+
+Position: static - (Padrãoa) Não aceita Valores como: top, Botton, right e left.
+Position: fixed - Fixa o Elemento na Tela.
+Position: sticky - Age como um Adesivo, Fixa só onde eu determinar.
+Position: relative - Posição relativa a posição inicial dele.
+Position: absolute - Posição absoluta a alguns elementos ou a pagina.
+                   - se não tiver pai/pai for ststic -> posiciona referte a pagina.
+                   - se o pai não for static -> Posiciona referente ao pai.
+
+PROPRIEDADES:
+
+top 
+botton 
+right
+left
+------------------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200vw;
+    height: 200vh;
+}
+
+.div-dad {
+width: 350px;
+height: 350px;
+background-color: red;
+}
+
+.div-son{
+width: 150px;
+height: 150px;
+background-color: blue;
+}
+
+.div-childre {
+width: 100px;
+height: 100px;
+background-color: darkgreen;
+    }
+
+
+
+
+
+
+

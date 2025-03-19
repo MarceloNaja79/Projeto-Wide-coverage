@@ -1,0 +1,64 @@
+<!--Forms(formularios)
+
+Captura dados de entrada
+input.......-> Entrada
+
+Action define para quai URL sera enviados os Dados, vazio envia para a mesma URL
+....->method (é o metado)
+....->Get...->os dados vão visiveis na URL
+....->Post..->os dados vão invisiveis na URL  -->
+
+<form action="" method="get" enctype="multipart/form-data"> 
+ <h1> Digite seu Endereço </h1>
+
+    <label>
+RUA:
+<input type="text" name="rua" autocomplete="street-address"/>
+</label>
+
+<label>
+    Numero:
+    <input type="text" name="numero" />
+</label>
+
+    <label>
+        Email:
+        <input type="text" name="email"/>
+        </label>
+
+        <label>
+            Foto:
+            <input type="file" name="arquivo"/>
+            </label>
+    
+<br>
+<br>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar Dados</button>
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

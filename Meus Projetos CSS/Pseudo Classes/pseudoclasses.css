@@ -1,0 +1,36 @@
+/* Pseudo Classes::after
+
+active - Quando o Elemento esta ativo,ou seja, esta sendo precionado
+visited - Seleciona o link q foi visitado
+hover - Quando o mause passa encina do Elemento
+checked - Usado em radio/checkbox/select
+disabled - Elemento disabilitado /buttom/input
+enabled - Elemento esta abilitado
+focus - É aplicado qundo um elemento recebe foco.o q pode ocorrer quando o usuario seleciona o elemento
+
+first-child - primeiro filho / ex: primeira li de uma ul / primeiro span de uma div
+first-of-type - primeiro elemento onde seu tipoentre os filhos de seu elemento pai
+last-child - ultimo filho
+last-of-type - ultimo elemento seu tipos entre os filhos de seu elemento pai
+not() - estiliza os elementos, exeto o q esta dentro do()
+nth-child - seleciona o elemento baseado ma sua posição. ex: :: nth-child(3)
+nth-last-child - seleciona o elemento baseado na sua posição , contando de tras para frente.
+ ABAIXO EX ESTRUTURA COMO FICA */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+input {
+border: 1 solid red;
+outline: none;
+
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+.box {
+width: 50px;  /*Largura*/
+height: 50px; /*Comprimento*/
+background-color: #ff1493;
+padding: 50px; /*Ele Espandi ou Aumenta seu Item*/
+margin: 15px; /* esse cria uma margem envolta do item*/
+
+}
+
+/* Margin e Pedding tambem pode ser execultado com valores diferentes Ex: 
+
+. Margin top....(CIMA)
+. Margin bottom.(BAIXO)
+. Margin rigth..(DIREITA)
+. Margin left...(ESQUERDA)
+*/
+
+.box2 {
+width: 50px;  /*Largura*/
+height: 50px; /*Comprimento*/
+background-color: #008000;
+padding: 50px; /*Ele Espandi ou Aumenta seu Item*/
+margin: 50px; /* esse cria uma margem envolta do item*/
+
+}
+
+/* E para facilitar ainda mais podemos usar o chamado ATALHO do RELÒGIO  
+vai funcionar tanto para a Margin como para padding!
+ Ex:
+margin: 10px 50px 30px 5px;
+padding: 10px 50px 30px 5px;
+ou Seja->12h->15h->18h->21h
+
+E temos tambem outras 2 formas que vale tanto para a MARGIN como para o Padding ai ficaria assim:
+margin: 10px 50px 30px;
+padding: 10px 50px 30px;
+         top...R/L..bottom
+
+ E a 2° ficaria assim: 
+   margin: 10px 50px;
+   padding: 10px 50px;
+    top/bottom....R/L   
+*/

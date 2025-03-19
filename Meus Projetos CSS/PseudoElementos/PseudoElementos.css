@@ -1,0 +1,43 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+input {
+border: 1px solid red;
+color: blue;
+}
+
+input::placeholder {
+color: darkorange;
+
+}
+ p {color: black;
+}
+
+/*Este Pseudo Elemento styliza somente a primeira Letra 
+Se quizer podemos usar o first-line para stylizar uma linha toda*/
+p::first-letter {
+    color: red;
+}
+
+a {
+    color: crimson;
+}
+
+/* (a::before) Este Pseudo Elemento vai colocar o q quizer antes do meu Link, já
+o (a::after) coloca o Pseudo Elemento depois do seu link veja o
+exemplos abaixo: */
+ 
+
+a::before {
+content: "➔";
+}
+
+a::after {
+content: "🚀";
+}
+
+

@@ -1,0 +1,43 @@
+
+/* seletores com ID assim é uma forma de vc stylizar e dividir Item por Item da sua
+Pagina*/
+
+#Titulo {
+
+    color: red;
+    font-size: 60px;
+    background: black;
+
+}
+
+#Paragrafo {
+
+    color: blue;
+    font-size: 30px;
+
+}
+
+#Botão1 {   
+
+    background: yellow;
+    font-size: 25px;
+border-color: black;
+border-color: darkgreen;
+
+
+}
+
+#Botão2 {
+
+    background: green;
+    font-size: 25px;
+border-color: yellow;
+border-color: red;
+
+}
+
+
+
+
+
+

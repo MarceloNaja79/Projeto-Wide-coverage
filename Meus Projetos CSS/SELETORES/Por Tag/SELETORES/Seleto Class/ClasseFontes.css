@@ -1,0 +1,43 @@
+
+/* Aqui venho o Seletor Por CLASS que vai stylizar de forma igual os itens 
+por exemplo abaixo o Titulo e o Paragrafo estão com os nomes diferentes assim vão ser stylizados de forma individual.
+já os botões estão com o mesmo nome de Calss assim vão se stylizador igualmente. E vc tambem pode selecionar varios 
+itens da sua pagina q vc querira usar a mesma configuração escolher qual vc quizer e ECONOMIZA ou deixar menor seu
+arquivo EXEMPLO: 
+.Testo1, .Testo2, .Botão e assim por diante o que vc quizer adidionar ai no exemplo */
+
+
+    .Testo1 {
+        font-family: "Sigmar", serif;
+        font-weight: 400;
+        font-style: normal;
+    }   
+  
+  .Testo1 {
+    color: wheat;
+    font-size: 60px;
+    background: black;
+}
+
+.Testo2 {
+
+    color: red;
+    font-size: 18px;
+    background: black;
+
+}
+
+.Botão {
+
+    background: green;
+    font-size: 25px;
+border-color: yellow;
+border-color: red;
+
+}
+
+/*Para Fontes pesquisar no GoogleFontes
+ e escolher a fonte de seu Gosto e copiar e colar no seu Arquivo HTML no HEAD 
+ do arquivo*/
+
+

@@ -1,0 +1,15 @@
+
+* {
+box-sizing: border-box; /* Serve para manter tudo no tamanho original sem espandir e concequentemente
+ñ deixa o item mudar de tamanho (Espandir) ele ñ deixa o Width e o Heigth aumentar e vc perder o Controle
+do tamanho original do seu ITEM! */
+
+}
+
+.box {
+    width: 100px;  /*Largura*/
+    height: 100px; /*Comprimento*/
+    background-color: #ff1493;
+    padding: 20px; /*Ele Espandi ou Aumenta seu Item*/
+    border: 10px solid #200202;
+}
